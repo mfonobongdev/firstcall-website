@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+/.idea
+
+documentation/node_modules
+documentation/.pnp
+documentation.pnp.js
+documentation/.idea
 
 # testing
 /coverage
@@ -12,12 +18,20 @@
 /.next/
 /out/
 
+documentation/.next/
+documentation/out/
+
 # production
 /build
 
 # misc
 .DS_Store
 *.pem
+
+#package managers
+yarn.lock
+
+documentation/yarn.lock
 
 # debug
 npm-debug.log*
@@ -32,6 +46,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# typescript
-*.tsbuildinfo
