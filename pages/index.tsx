@@ -55,14 +55,25 @@ export default function Home() {
         <div id={'about'} className='text-center'>
           <Headline medium>About Us.</Headline>
           <Spacer />
-          <div className='md:text-center text-left'>
+          <div className='text-left md:px-12'>
             <Headline small>Our Pharmacist plays an integral role in your healthcare.</Headline>
             <Spacer amount={space.small} />
             <Headline small>
-              Do you have a question about your health or the health of your loved ones?
-              <br /> The Pharmacists at FirstCall Pharmacy understand how important it can be to find a solution quickly and efficiently.
+              FirstCall Pharmacy started in 1999 in the city of Port Harcourt, Nigeria. In 2007, FirstCall Pharmacy decided to spread her
+              wings across Nigeria after 8 Years of providing quality drugs and services in Port Harcourt, Nigeria.
               <br />
-              That’s why we are available to help.
+              <Spacer amount={space.small} />
+              Lagos Nigeria was the next stop, 5, Kayode Taiwo Magodo Phase II to be precise.
+              <br />
+              <Spacer amount={space.small} />
+              In no time, FirstCall Pharmacy was recognized in its environs as the Best quality and service providing Pharmacy. This was
+              made possible due to its high level of professionalism, standard facility and drugs, high efficiency, qualified Pharmacists
+              and trained Pharmacy/ Counter Assistants. With lots of hard work, dedication and commitment, it strives to be the best leading
+              Pharmacy in Magodo Phase II till date.
+              <br />
+              <Spacer amount={space.small} />
+              This growth birthed the second outlet in Magodo Phase II, located at 8B Dipo Awolesi Street Magodo Phase II, in order to serve
+              its community better.
             </Headline>
           </div>
         </div>
@@ -110,7 +121,7 @@ export default function Home() {
           <div className='text-center'>
             <Headline small light>
               We are here for you. Call us at <span className='underline'>0906 000 1234</span> or{' '}
-              <span className='underline'>0906 000 1234</span>
+              <span className='underline'>0704 083 0006</span>
             </Headline>
           </div>
         </Section>
@@ -453,6 +464,9 @@ export default function Home() {
             <Paragraph small>0906 000 1234</Paragraph>
             <Paragraph small>0704 083 0006</Paragraph>
             <Paragraph small>8b Dipo Awolesi St, magodo Phase II, Lagos</Paragraph>
+            <Paragraph small>Working Hours:</Paragraph>
+            <Paragraph small>Mondays to Saturdays: 7:30am - 10:00pm</Paragraph>
+            <Paragraph small>Sundays: 1:00pm - 10:00pm</Paragraph>
           </div>
         </div>
       </Section>
