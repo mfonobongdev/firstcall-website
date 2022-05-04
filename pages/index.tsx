@@ -3,6 +3,7 @@ import { Navigation } from '../components/Navigation'
 import { Section } from '../components/primitives/Section'
 import { space, Spacer } from '../components/primitives/Spacer'
 import { ImageSection } from '../components/primitives/ImageSection'
+import Head from 'next/head'
 import Image from 'next/image'
 import staffOne from '../public/images/staff-1.jpeg'
 import staffTwo from '../public/images/staff-2.jpeg'
@@ -10,6 +11,8 @@ import staffThree from '../public/images/staff-3.jpeg'
 import staffFour from '../public/images/staff-4.jpg'
 import staffFive from '../public/images/staff-5.jpg'
 import staffSix from '../public/images/staff-6.jpg'
+import staffSeven from '../public/images/staff-7.png'
+import staffEight from '../public/images/staff-8.png'
 import { Paragraph } from '../components/primitives/Paragraph'
 import { Disclosure } from '@headlessui/react'
 import { Link } from 'react-scroll'
@@ -18,6 +21,9 @@ import logoalt from '../public/images/firstcall-logo-alt.png'
 export default function Home() {
   return (
     <main>
+      <Head>
+        <title>Firstcall Pharmacy</title>
+      </Head>
       <div className='bg-gradient-to-r from-blue-400 to-blue-500'>
         <Navigation />
         <Section>
@@ -92,6 +98,12 @@ export default function Home() {
             </div>
             <div className='relative min-h-[500px] min-w-[300px] rounded-lg shadow-2xl shadow-blue-900'>
               <Image src={staffSix} layout='fill' className='object-cover rounded-lg' />
+            </div>
+            <div className='relative min-h-[500px] min-w-[300px] rounded-lg shadow-2xl shadow-blue-900'>
+              <Image src={staffSeven} layout='fill' className='object-cover rounded-lg' />
+            </div>
+            <div className='relative min-h-[500px] min-w-[300px] rounded-lg shadow-2xl shadow-blue-900'>
+              <Image src={staffEight} layout='fill' className='object-cover rounded-lg' />
             </div>
           </div>
 
