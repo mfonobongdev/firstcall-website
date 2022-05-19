@@ -430,7 +430,7 @@ export default function Home() {
             <Paragraph small>© 2021 Firstcall Pharmacy</Paragraph>
           </div>
           <div className='block md:hidden'>{''}</div>
-          <div className='flex flex-col space-y-4 md:col-start-5 md:col-end-6'>
+          <div className='flex flex-col space-y-4 md:col-start-3 md:col-end-4'>
             <div className='font-bold'>Links</div>
             <Paragraph small>
               <Link className='cursor-pointer' to={'home'} spy={true} smooth={true} offset={-125}>
@@ -458,13 +458,22 @@ export default function Home() {
               </Link>
             </Paragraph>
           </div>
-          <div className='flex flex-col space-y-4 md:col-start-6 md:col-end-7 overflow-clip'>
+          <div className='flex flex-col space-y-4 md:col-start-4 md:col-end-5 overflow-clip pl-4'>
             <div className='font-bold'>Contact Us</div>
-            <Paragraph small>firstcallpharmacy@gmail.com</Paragraph>
+            <Paragraph small>info@firstcallpharmacy.com.ng</Paragraph>
             <Paragraph small>0906 000 1234</Paragraph>
             <Paragraph small>0704 083 0006</Paragraph>
+          </div>
+          <div className='flex flex-col space-y-4 md:col-start-5 md:col-end-6 overflow-clip pl-4'>
+            <div className='font-bold'>Outlets</div>
             <Paragraph small>8b Dipo Awolesi St, magodo Phase II, Lagos</Paragraph>
-            <Paragraph small>Working Hours:</Paragraph>
+            <Paragraph small>5 Kayode Taiwo Street, Magodo Phase II, Lagos</Paragraph>
+            <Paragraph small>In-store Shopping</Paragraph>
+            <Paragraph small>In-store pickup</Paragraph>
+            <Paragraph small>Home delivery</Paragraph>
+          </div>
+          <div className='flex flex-col space-y-4 md:col-start-6 md:col-end-7 overflow-clip pl-4'>
+            <div className='font-bold'>Working Hours</div>
             <Paragraph small>Mondays to Saturdays: 7:30am - 10:00pm</Paragraph>
             <Paragraph small>Sundays: 1:00pm - 10:00pm</Paragraph>
           </div>
